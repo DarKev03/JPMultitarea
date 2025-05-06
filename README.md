@@ -48,7 +48,7 @@ El resultado se encontrará en la carpeta `dist`.
 ## 📁 Estructura del proyecto
 
 ```
-JpMultitareasLanding/
+JpMultitarea/
 ├── src/
 │   ├── main.tsx
 │   ├── App.tsx
