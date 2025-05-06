@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex  justify-center items-center space-x-70">
         {/* Logo */}
         <img src={'src/assets/Logo.png'} alt="JP Logo" className="h-12 w-auto object-contain" />
