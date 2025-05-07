@@ -27,8 +27,11 @@ const gifCards: GifCard[] = [
 
 const GaleriaReformas: React.FC = () => {
     return (
-      <div className="w-screen bg-[#0F3D38] py-20" id="galeria">
-        <div className="max-w-7xl mx-auto px-21 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  justify-items-center">
+      <div className="w-screen bg-[#0F3D38] py-20 px-4 sm:px-10 md:px-16" id="galeria">
+        <div className="max-w-7xl mx-auto grid gap-8 justify-center" style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(341.33px, 0fr))'
+        }}>
           {gifCards.map((card, index) => (
             <div key={index} className="flex flex-col items-center">
               {/* GIF */}
