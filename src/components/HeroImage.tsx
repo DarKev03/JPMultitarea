@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroImage: React.FC = () => {
     return (
-        <section className="w-full shadow-lg">
+        <section className="w-full shadow-md">
             <img
                 src={'src/assets/Mi imagen de ChatGPT.png'}
                 alt="Banner Reformas Integrales"
