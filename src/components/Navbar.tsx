@@ -16,13 +16,12 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Nav Buttons */}
-        <nav className={`${
-          isOpen ? 'flex' : 'hidden'
-        } md:flex flex-col md:flex-row items-center justify-center md:space-x-2 gap-4 mt-4 md:mt-0`}>
+        <nav className={`${isOpen ? 'flex' : 'hidden'
+          } md:flex flex-col md:flex-row items-center justify-center md:space-x-2 gap-4 mt-4 md:mt-0`}>
           <a href="#servicios" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Servicios</a>
-          <a href="#especialidades" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Especialidades</a>
-          <a href="#sobre-nosotros" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Sobre nosotros</a>
-          <a href="#contacto" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Contacto</a>
+          <a href="#galeria" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Especialidades</a>
+          <a href="#about-us" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Sobre nosotros</a>
+          <a href="#footer" className="whitespace-nowrap bg-white px-6 py-2 rounded-full  hover:shadow-lg transition duration-200">Contacto</a>
         </nav>
       </div>
     </header>
