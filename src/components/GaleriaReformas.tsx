@@ -1,5 +1,6 @@
 import React from 'react';
-import gifPlaceholder from '../assets/giphy.gif';
+
+const gifPlaceholder = '/assets/giphy.gif';
 
 type GifCard = {
   title: string;

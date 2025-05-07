@@ -25,7 +25,7 @@ const AboutUs: React.FC = () => {
         {/* Imagen */}
         <div>
           <img
-            src="src/assets/Mi imagen de ChatGPT.png"
+            src="/assets/Mi imagen de ChatGPT.png"
             alt="Cocina reformada"
             className="w-full h-auto rounded-md shadow-md object-cover"
           />
