@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
 
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-4xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center">
+      <div className="max-w-4xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
         {/* Logo and Menu Toggle */}
         <div className="w-full flex justify-between items-center">
           <img src={'/assets/Logo.png'} alt="JP Logo" className="h-12 w-auto object-contain min-w-[3rem]" />
