@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import "tailwindcss";
 @tailwind base;
 @tailwind components;
@@ -17,3 +17,8 @@
     background-color: #064e3b; 
     transform: scale(1.2); 
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  
