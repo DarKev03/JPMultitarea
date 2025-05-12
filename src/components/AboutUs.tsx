@@ -14,8 +14,7 @@ const AboutUs: React.FC = () => {
             Transformamos cada espacio en un reflejo de lo que eres y lo que sueñas. No se trata solo de decorar, sino de crear un lugar con alma, donde cada rincón cuente una historia —<strong>la tuya</strong>.
           </p>
           <p className="text-[rgba(3,31,40,0.6)] text-base leading-relaxed mb-6">
-            Reformas, fontanería, electricidad y mucho más.
-            Ofrecemos soluciones integrales para tu hogar, con calidad, compromiso y profesionalismo.
+          Por eso, ofrecemos presupuestos detallados sin ningún compromiso, asegurando una total transparencia desde el inicio. Nuestra filosofía se centra en el cumplimiento estricto de plazos y la seriedad en cada presupuesto, garantizando que cada proyecto se complete con la máxima eficiencia.
           </p>
           <p className="text-[rgba(3,31,40,0.6)] text-base font-medium">
             ¡Contáctanos y empecemos a transformar tu espacio!
