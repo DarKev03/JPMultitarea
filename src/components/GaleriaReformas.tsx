@@ -1,6 +1,6 @@
 import React from 'react';
 
-const gifPlaceholder = '/assets/giphy.gif';
+
 
 type GifCard = {
   title: string;
@@ -10,19 +10,19 @@ type GifCard = {
 
 const gifCards: GifCard[] = [
   {
-    title: 'Ref',
-    description: 'Instalación moderna de baño con acabados personalizados.',
-    gifUrl: gifPlaceholder,
+    title: 'SALONES',
+    description: 'Renovamos salones para crear espacios amplios, Ya sea un estilo moderno, rústico o minimalista, nuestro equipo convierte tu salón en el centro acogedor y versátil que tu hogar necesita. Porque el salón no es solo un espacio más, es donde sucede la vida.',
+    gifUrl: "/assets/Salon1.jpeg",
   },
   {
-    title: 'Ref',
-    description: 'Parquet y pintura en sala de estar con iluminación cálida.',
-    gifUrl: gifPlaceholder,
+    title: 'BAÑOS',
+    description: 'Diseñamos y renovamos baños con un enfoque integral, combinando funcionalidad, confort y diseño moderno. Porcelana, grifería en acabados mate y mamparas de vidrio para crear espacios elegantes, duraderos y lo mas importante facil de mantener. Baño renovado es mucho mas que una mejora estética, es una inversión en bienestar comfort y salud.',
+    gifUrl: "/assets/Lavabo2.jpeg",
   },
   {
-    title: 'Ref',
-    description: 'Cocina integral con detalles en madera y acero.',
-    gifUrl: gifPlaceholder,
+    title: 'COCINAS',
+    description: 'Transformamos tu cocina en un espacio funcional, moderno y personalizado. Utilizamos materiales de alta calidad como la madera natural y el acero inoxidable para lograr una combinación perfecta entre calidez, resistencia y estilo contemporáneo. Porque una cocina no solo debe verse bien, también debe adaptarse a tu ritmo de vida.',
+    gifUrl: "/assets/Cocina2.jpeg",
   },
 ];
 

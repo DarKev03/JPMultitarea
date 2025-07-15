@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { SiTiktok } from 'react-icons/si'; // ← Aquí importamos TikTok
 
 const Footer: React.FC = () => {
   return (
@@ -17,11 +18,14 @@ const Footer: React.FC = () => {
           <span>671 24 69 20</span>
           <span className="hidden sm:inline">|</span>
           <div className="flex items-center gap-3">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/share/16nBHtJkLV/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="text-gray-700 hover:text-blue-600" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/jpmultitareas?igsh=MTR6ajE5djgzeHp4aw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="text-gray-700 hover:text-pink-500" />
+            </a>
+            <a href="https://www.tiktok.com/@jpmultitareas" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <SiTiktok className="text-gray-700 hover:text-black" />
             </a>
           </div>
         </div>
