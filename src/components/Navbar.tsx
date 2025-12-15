@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
         <div className="w-full flex justify-between items-center">
           <a href="#hero-image">
             <img
-              src="/assets/Logo.png"
+              src="/assets/Logo.jpg"
               alt="JP Logo"
               className="h-12 w-auto object-contain min-w-[3rem] cursor-pointer"
             />

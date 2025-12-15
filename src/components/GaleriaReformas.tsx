@@ -22,7 +22,7 @@ const gifCards: GifCard[] = [
   {
     title: 'COCINAS',
     description: 'Transformamos tu cocina en un espacio funcional, moderno y personalizado. Utilizamos materiales de alta calidad como la madera natural y el acero inoxidable para lograr una combinación perfecta entre calidez, resistencia y estilo contemporáneo. Porque una cocina no solo debe verse bien, también debe adaptarse a tu ritmo de vida.',
-    gifUrl: "/assets/Cocina2.jpeg",
+    gifUrl: "/assets/Cocina2.jpg",
   },
 ];
 

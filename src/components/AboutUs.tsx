@@ -24,7 +24,7 @@ const AboutUs: React.FC = () => {
         {/* Imagen */}
         <div>
           <img
-            src="/assets/Salon2.jpeg"
+            src="/assets/Salon2.jpg"
             alt="Cocina reformada"
             className="w-full h-auto rounded-md shadow-md object-cover"
           />

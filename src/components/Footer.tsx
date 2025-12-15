@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <span>© 2025</span>
         
         <div className="flex flex-wrap items-center gap-4">
-          <span>jpmultitareas@gmail.com</span>
+          <span></span>
           <span className="hidden sm:inline">|</span>
           <span>Calle Colón, 1, Gandia</span>
           <span className="hidden sm:inline">|</span>
